@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../keytrack.js"></script>
+    <link rel="stylesheet" href="example.css">
+</head>
+<body onload="KeyTrack.track()">
+<div class="section-div demo-div">
+    <div class="submited-text">
+
+    </div>
+    <form class="demo-form">
+        <input name="input" type="text"/>
+    </form>
+</div>
+<div id="play-div" class="section-div">
+    <button onclick="KeyTrack.play(KeyTrack.get(), 'play-div')">Play</button>
+</div>
+<script src="example.js"></script>
+</body>
+</html>
