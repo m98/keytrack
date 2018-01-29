@@ -15,8 +15,6 @@ KeyTrack.keyDownCallBack = function (event) {
         keyCode = event.key;
     }
 
-    console.log(event)
-
     if (event.key) {
         KeyTrack.value.push(
             [
